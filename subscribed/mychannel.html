@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="sub.css">
+</head>
+<body>
+
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="../imagee/menu (1).png" class="menu" alt="Menu">
+            <a href="../index.html"><img src="../imagee/logo (1).png" class="logo" alt="Logo"></a>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search flex-div">
+                <input type="text" placeholder="Search">
+                <img src="../imagee/search.png" alt="Search">
+            </div>
+        </div>
+        <div class="nav-right flex-div">
+            <a href="https://studio.youtube.com/channel/UCCrNthx_huAlLQDAo-4rM1Q/videos/upload?d=ud&filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"><img src="../imagee/upload.png" alt="Upload"></a>
+            <img src="../imagee/notification.png" alt="Notifications">
+            <img src="../imagee/yan.jpg" class="user" alt="User">
+        </div>
+    </nav>
+
+    <div class="sidebar">
+        <div class="shortcut">
+            <a href="../index.html"><img src="../imagee/home (2).png" alt=""><p>Home</p></a>
+            <a href="../shorts/Shorts.html"><img src="../imagee/shorts.jpg" alt=""><p>Shorts</p></a>
+            <a href="../Subscription.html"><img src="../imagee/subscribe.webp" alt=""><p>Subscriptions</p></a>
+            <div class="hide-explore">
+                <hr>
+                <br>
+                <div class="You">
+                    <h4><p>You ></p></h4>
+                    <br>
+                    <a href="mychannel.html"><img src="../imagee/channel.png" alt=""><p>Your Channel</p></a>
+                    <a href="https://studio.youtube.com/channel/UCCrNthx_huAlLQDAo-4rM1Q/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"><img src="../imagee/library.png" alt=""><p>Your videos</p></a>
+                    <a href=""><img src="../imagee/th.jpg" alt=""><p>History</p></a>
+                    <a href=""><img src="../imagee/like (2).png" alt=""><p>Liked videos</p></a>
+                </div>
+                <hr>
+                <br>
+                <div class="subscribed">
+                    <h4><p>Subscriptions</p></h4>
+                    <br>
+                    <a href="Brocode.html"><img src="img/bro.jpg" alt=""><p>Bro Code</p></a>
+                    <a href="Bayashi.html"><img src="img/bayashi.jpg" alt=""><p>Bayashi TV</p></a>
+                    <a href="Joji.html"><img src="img/joji.jpg" alt=""><p>Joji</p></a>
+                    <a href="carl.html"><img src="img/carl.jpg" alt=""><p>carlcastanas</p></a>
+                </div>
+                <h4 ><p>Explore</p></h4>
+                <br>
+                <a href="../explore/Trend.html"><img src="../imagee/explore.png" alt=""><p>Trending</p></a>
+                <a href="../explore/music.html"><img src="../imagee/musicicon.jpg" alt=""><p>Music</p></a>
+                <a href="../explore/gaming.html"><img src="../imagee/gaming.jpg" alt=""><p>Gaming</p></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="trend-container">
+        <div class="trend-list-container">
+            <br>
+            <div class="trending-icon">
+                <div>
+                    <img src="../imagee/yan.jpg" alt="Trending Icon">
+                    <h3 class="letter">Youtube</h3>
+                </div>
+                <div class="trending-options">
+                    <div class="attributes">
+                        <a href="#home" class="trending-home" onclick="showSection('home')">Home</a>
+                        <a href="#videos" class="trending-videos" onclick="showSection('videos')">Videos</a>
+                        <a href="#playlist" class="trending-playlist" onclick="showSection('playlist')">Playlist</a>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+        </div>
+
+        <div id="home" class="home-content section">
+            <h2>No content has been posted.</h2>
+        </div>
+
+        <div id="videos" class="videos-content section hidden">
+            <h2>No Videos has been posted.</h2>
+        </div>
+
+        <div id="playlist" class="playlist-content section hidden">
+            <h2>There are no playlists.</h2>
+        </div>
+
+        <div id="community" class="community-content section hidden">
+            <div class="community-container-column">
+                <div class="community-post">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h5>This channel hasn't posted yet  </h4>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="sub.js"></script>
+</body>
+</html>
